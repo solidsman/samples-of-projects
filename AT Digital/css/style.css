@@ -1,0 +1,149 @@
+ 
+ body {
+  font-family:'Franklin Gothic Medium';
+ }
+ 
+
+ #scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+
+
+.purple-navbar {
+   background-color: #531491; 
+   font-family: Verdana;
+}
+
+.purple-navbar .navbar-brand,
+.purple-navbar .navbar-nav .nav-link {
+  color: #ffffff; 
+  font-size: 16px; 
+  font-weight: bold; 
+
+ }
+
+.purple-navbar .navbar-toggler-icon {
+   background-color: #ffffff; 
+}
+
+
+.purple-navbar .navbar-nav .nav-item.active .nav-link {
+   color: FFC600; 
+}
+
+.navbar-logo img {
+   max-height: 30px; 
+   margin-right: 10px; 
+}
+
+    /* the background image */
+.section-with-background {
+  background-image: url('../pics/humanai.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; 
+  text-align: center;
+}
+
+
+         
+.navbar-brand img {
+    filter: brightness(0) invert(1); 
+}
+
+
+.image-with-text-section {
+     padding: 50px 0; 
+}
+  
+.image-with-text-section img {
+  max-width: 100%; 
+  height: auto;
+}
+  
+.text-content {
+  padding: 30px; 
+}
+
+
+.rectangular-section {
+  background: url('../pics/humanandai.jpg') center/cover; 
+  color: #fff; 
+  padding: 50px; 
+  border-radius: 15px; 
+  font-family: 'Times New Roman', serif; 
+}
+  
+.cyan-background {
+ background-color: #008080; 
+ border-radius: 15px; 
+ position: relative;
+ overflow: hidden;
+}
+  
+.yellow-button {
+  background-color:FFC600 ; 
+  color: #000; 
+  border-radius: 15px;
+}
+    
+
+       
+.custom-section {
+    padding: 80px 0; 
+}
+  
+.purple-heading {
+  color: #800080; 
+  font-family: 'Arial', sans-serif; 
+}
+  
+.yellow-button {
+  background-color: #ffd700; 
+  color: #000; 
+}
+   
+
+
+     
+.purple-footer {
+    background-color:#531491; 
+    color: #fff; 
+    padding: 20px 0;
+    text-align: center; 
+    font-style: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.purple-footer img{
+     max-height: 30px; 
+     margin-right: 10px;
+}
+
+.logo{
+    width: 50px; 
+    height: 50px; 
+     margin-bottom: 20px; 
+}
+      
+
+.purple-footer img {
+     filter: brightness(0) invert(1); 
+ }
+     
+.purple-footer {
+     padding: 60px 0; 
+}
+
+
+
+
+      
+
