@@ -1,7 +1,8 @@
 # 💫 About Me:
 Currently, I'm Learning some new things to achieve 
-
-![Alt text](<iframe src="https://gifer.com/embed/EUib" width=480 height=835.420 frameBorder="0" allowFullScreen></iframe><p><a href="https://gifer.com">via GIFER</a></p>)
+<div style="text-align:center">
+  <img src="https://i.gifer.com/EUib.mp4" alt="Your GIF" width="80%" style="max-width:100%;">
+</div>
 # 💻 Tech Stack:
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 # 📊 GitHub Stats:
