@@ -1,11 +1,9 @@
-git add README.md
-git commit -m "Add GIF to README"
-git push
 
 
 # 💫 About Me:
 
 ![Alt text](https://i.imgur.com/2miaCSx.gif)
+
 Currently, I'm Learning some new things to achieve and going through the journey !
 
 
