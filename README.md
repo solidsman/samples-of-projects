@@ -4,8 +4,10 @@ git push
 
 
 # 💫 About Me:
-Currently, I'm Learning some new things to achieve and going through the journey !
+
 ![Alt text](https://i.imgur.com/2miaCSx.gif)
+Currently, I'm Learning some new things to achieve and going through the journey !
+
 
 
 
