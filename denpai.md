@@ -1,4 +1,4 @@
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=yourrepo)](https://github.com/solidsman/sample-of-projects)
+[![ReadMe Card](https://github.com/solidsman/sample-of-projects)
 
 # 💫 About Me:
 
