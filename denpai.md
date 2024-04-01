@@ -1,5 +1,3 @@
-[![ReadMe Card](https://github.com/solidsman/sample-of-projects)
-
 # 💫 About Me:
 
 ![Alt text](https://i.imgur.com/2miaCSx.gif)
