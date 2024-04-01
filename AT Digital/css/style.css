@@ -1,0 +1,188 @@
+ 
+ body {
+  font-family:'Franklin Gothic Medium';
+ }
+ 
+ .purple-navbar {
+  background-color: purple;
+  font-family: sans-serif; 
+}
+
+
+.navbar-logo img {
+   max-height: 30px; 
+   margin-right: 10px; 
+}
+
+/* Base state of the nav link */
+.nav-link {
+  color: #ffffff; /* Initial text color */
+  background-color: transparent; /* Initial background color, if needed */
+  transition: color 0.5s ease, background-color 0.5s ease; /* Smooth transition for color and background color */
+}
+
+/* State of the nav link on hover */
+.nav-link:hover {
+  color: #ffffffaf; /* Text color changes on hover */
+  background-color: #531491; /* Background color changes on hover */
+}
+
+/* Optionally, you can also smoothly change the colors for the .nav-item if you have a background color */
+.nav-item {
+  transition: background-color 0.5s ease; /* Smooth transition for background color */
+}
+
+.nav-item:hover {
+  background-color: #531491; /* Example: Darker shade of blue on hover */
+}
+
+/* Active or current page link */
+.nav-link.active {
+  color: #4CAF50; /* Active item text color */
+  background-color: #3d2496; /* Active item background color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+  font-family: Arial, sans-serif;
+}
+/* Additional styling for your purple navbar, if needed */
+.purple-navbar {
+  background-color: purple;
+  color: white;
+}
+
+    /* the background image */
+.section-with-background {
+  background-image: url('../pics/humanai.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; 
+  text-align: center;
+}
+
+
+         
+.navbar-brand img {
+    filter: brightness(0) invert(1); 
+}
+
+
+.image-with-text-section {
+     padding: 50px 0; 
+}
+  
+.image-with-text-section img {
+  max-width: 100%; 
+  height: auto;
+}
+  
+.text-content {
+  padding: 30px; 
+}
+
+
+.rectangular-section {
+  background: url('../pics/humanandai.jpg') center/cover; 
+  color: #fff; 
+  padding: 50px; 
+  border-radius: 15px; 
+  font-family: 'Times New Roman', serif; 
+}
+  
+.cyan-background {
+ background-color: #008080; 
+ border-radius: 25px; 
+ padding: 18px;
+ position: relative;
+ overflow: hidden;
+}
+
+.cyan-background h2 {
+ text-align: left;
+ }
+  
+.yellow-button {
+  background-color:FFC600 ; 
+  color: #000000; 
+  border-radius: 15px;
+  position: fixed;
+}
+    
+
+       
+.custom-section {
+    padding: 80px 0; 
+}
+  
+.purple-heading {
+  color: #800080; 
+  font-family: 'Arial', sans-serif; 
+}
+  
+
+
+.btn-warning {
+  color: #000; /* Text color - assuming you want black */
+  background-color: #ffc107; /* Bootstrap's warning color, adjust if you want a different shade */
+}
+
+@media (max-width: 576px) {
+  .curved-rectangle {
+      flex-direction: column;
+      padding: 10px;
+  }
+  .btn {
+      width: 100%; /* Makes the button full width on smaller screens */
+      padding: 10px 0; /* Adjust padding for smaller screens */
+  }
+}
+
+   
+
+.purple-footer {
+  background-color: #531491;
+  color: white;
+  padding: 20px 0;
+}
+.purple-footer img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.purple-footer p {
+  margin-bottom: 10px;
+}
+.purple-footer h1 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .purple-footer img {
+    margin-bottom: 0;
+  }
+  .purple-footer h1 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+}

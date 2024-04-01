@@ -1,0 +1,110 @@
+body{
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.navbar {
+    background-color: #333; /* Navbar background color */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Lighting effect */
+  }
+
+      /* Custom CSS for shadow/light text effect */
+.navbar-nav li a {
+    color: black; /* Initial text color */
+    transition: text-shadow 0.3s ease-in-out;
+}
+  
+.navbar-nav li a:hover {
+      text-shadow: 2px 2px 4px rgba(5, 156, 216);
+      color: white; /* Change text color on hover */
+}
+  
+  
+.label{
+    font-family:'Kanit', Verdana ;
+    color: #fff;
+}
+
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: url('../pics/hex.jpg') fixed;
+    background-size: cover;
+    color: #fff; /* Set text color for better visibility */
+}
+
+section {
+    padding: 100px 0; /* Adjust the padding for each section as needed */
+    text-align: center;
+    color: #fff; /* Set text color for better visibility */
+    font-family: 'Kanit', sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.line-above {
+  border-top: 2px solid white;
+  padding-top: 10px; /* Adjust the padding as needed */
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+  
+.bg-image {
+ 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+.custom-navbar {
+  background: linear-gradient(to right, #454545, #000000); /* Grey to Dark Red Gradient */
+}
+
+
+
+
+
+
+
+.footer {
+  background-color:  #686868;  /* Grey background color */
+  padding:5px;
+  display: flex;
+  color: #000000;
+  text-align: left;
+  padding: auto;
+  bottom: 0;
+  width: 100%;
+ box-shadow: 0 0 10px rgba(12, 118, 160, 0.411); /* Lighting effect */
+ font-family: 'Kanit', serif; 
+}
+
+.footer-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.footer-right {
+  float: right;
+  text-align: right;
+}
+
+.footer a {
+  color: #1d1c1c;
+  margin-right: 10px;
+}
+
+
+.footer img {
+  height: 40px;
+  margin-right: 5px;
+}
+
+
+
