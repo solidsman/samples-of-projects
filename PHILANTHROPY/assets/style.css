@@ -1,0 +1,223 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../pics/hex.jpg') fixed;
+  background-size: cover;
+  color: #fff; 
+  font-family: 'Kanit' sans-serif;
+}
+
+.bg-image {
+  background-image: url('../pics/lettheworldwillbe.jpg'); 
+  background-size: cover;
+  background-position: center;
+  padding: 5vw; /* Adjust padding using viewport width units */
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Kanit';
+}
+
+/* Media query for devices with a maximum width of 768px (e.g., iPhone 8) */
+@media only screen and (max-width: 768px) {
+  .bg-image {
+      padding: 10px; /* Adjust padding for smaller screens */
+  }
+  .bg-image h1 {
+      font-size: 24px; /* Adjust font size for smaller screens */
+  }
+  .bg-image p {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Media query for devices with widths between 768px and 1200px (e.g., Galaxy Fold) */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .bg-image {
+      padding: 3vw; /* Adjust padding for medium-sized screens */
+  }
+  .bg-image h1 {
+      font-size: 3vw; /* Adjust font size using viewport width units */
+  }
+  .bg-image p {
+      font-size: 2vw; /* Adjust font size using viewport width units */
+  }
+}
+
+
+
+
+.black-section {
+  color: #f1f1f1;
+  padding: 50px 0;
+  font-family: 'Kanit', sans-serif; 
+}
+.black-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.custom-navbar {
+  background: linear-gradient(to right, #454545, #000000); 
+}
+
+
+
+
+  
+.big-text {
+    font-size: 3em; /* Adjust the font size as needed */
+    display: inline-block;
+    padding: 5px; /* Adjust padding as needed */
+    color: #fff;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    justify-content: center;
+
+}
+.navbar {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.411); /* Lighting effect */
+}
+
+    /* Custom CSS for shadow/light text effect */
+    .navbar-nav li a {
+      color: black;
+      transition: text-shadow 0.3s ease-in-out;
+    }
+
+    .navbar-nav li a:hover {
+      text-shadow: 2px 2px 4px rgb(5, 156, 216);
+      color: white; 
+    }
+
+
+.label{
+  font-family:'Kanit', Verdana ;
+  color: #fff;
+}
+
+
+
+
+.discord-section {
+  background: url('../pics/mgo.jpg') center center/cover no-repeat fixed; 
+  padding: 50px;
+  color: white; 
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+
+}
+
+.discord-button {
+  background-color: #121a5a; /* Red color for the button */
+  border: 2px solid #ff0000; /* Matching border color */
+}
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family:'Kanit', sans-serif;
+}
+
+
+
+.line-above {
+border-top: 2px solid rgb(255, 255, 255);
+padding-top: 10px; 
+margin-top: 10px; 
+}
+
+.gallery-container h1{
+  color: #fff;
+  font-family:'Kanit', sans-serif;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  border: 10px solid rgb(214, 210, 210);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: #454545;  /* Grey background color */
+  padding:5px;
+  display: flex;
+  color: #000000;
+  text-align: left;
+  padding: auto;
+  bottom: 0;
+  width: 100%;
+ box-shadow: 0 0 10px rgba(12, 118, 160, 0.411); /* Lighting effect */
+ font-family: 'Kanit', serif; 
+}
+
+.footer-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.footer-right {
+  float: right;
+  text-align: right;
+}
+
+.footer a {
+  color: #1d1c1c;
+  margin-right: 10px;
+}
+
+.footer a:hover {
+  color: #cccccc; /* Bootstrap primary color for hover effect */
+  text-decoration: none;
+}
+
+.footer img {
+  height: 40px;
+  margin-right: 5px;
+}
+

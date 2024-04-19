@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commencing To philanthropy....</title>
+    <link rel="icon" href="./pics/philanthropy_2ao_icon.ico" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color:#000000;
+            color: #fff;
+            opacity: 0; /* Initially set opacity to 0 */
+            transition: opacity 1s ease-in-out; /* Add a fade transition */
+        }
+
+        .loading-logo {
+            width: 200px; /* Adjust the logo size as needed */
+            height: 200px;
+            background: url('./pics/kanji.png') center center no-repeat;
+            background-size: cover;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-logo"></div>
+
+    <!-- Bootstrap JS and jQuery (required for some Bootstrap features) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- Show loading logo on page load -->
+    <script>
+        $(document).ready(function() {
+            document.body.style.opacity = 1; // Set opacity to 1 for fade-in effect
+
+           
+            setTimeout(function() {
+                document.body.style.opacity = 0; // Set opacity to 0 for fade-out effect
+
+                // Redirect to index.html after the fade-out
+                setTimeout(function() {
+                    window.location.href = 'outerheaven.html';
+                }, 1000); // Redirect after 1 second (adjust as needed)
+            }, 4000); // Initial delay before fade-out (adjust as needed)
+        });
+    </script>
+</body>
+</html>
